@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "AddSession";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+        
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="get">
+            <div class="form-group">
+                <label for="CityId">Şehir Seçin:</label>
+                @Html.DropDownList("Id", ViewBag.Cinemas as SelectList, "Sinema Seçiniz", new { @class = "form-control" })
+            </div>
+    
+            <!-- Diğer giriş alanları buraya eklenecek -->
+    
+            <button type="submit" class="btn btn-primary">Ekle</button>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-warning mt-2">Film Seansları</a>
+</div>
+

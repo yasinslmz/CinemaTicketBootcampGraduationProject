@@ -1,0 +1,427 @@
+﻿@model CinemaProject.Areas.Customer.Models.MovieDetailVM
+
+
+<section class="yds_with_poster">
+    <form method="POST" action="/tr-tr/sinema/koltuk_secimi " id="SeanceForm">
+        <input type="hidden" id="seanceId" name="seanceId" value="0">
+        <input type="hidden" id="lang" name="lang" value="tr">
+    </form>
+    <div class="yds_cinema_details">
+        <div class="yds_cinema_details_info" style="background-image: url('/@Model.Movie.ImageBackground'); background-position: center center;">
+            <div class="yds_container">
+                <div class="yds_cinema_details_info_title">
+                    <figure>
+                            <img src="~/@Model.Movie.Image" alt="alt">
+                        
+
+                       @*  <a href="TakeTicket">take ticket</a> *@
+                    </figure>
+                    <div>
+                        <h1>@Model.Movie.Name</h1>
+                        <div class="yds_genres">
+                                    <span>@Model.Movie.MovieType</span>
+                        </div>
+                            <p>@Model.Movie.Description</p>
+                    </div>
+                </div>
+                    <div class="yds_cinema_details_rating_person">
+                        
+                        <div class="yds_cinema_details_rating">
+                            <div class="yds_cinema_details_rating_flex">
+                                <figure>
+                                    <img src="../../dist/assets/img/star2-1.svg" alt="rating star">
+                                </figure>
+                                <div class="yds_cinema_details_rating_point">
+                                    <div class="yds_cinema_details_rating_flex">
+                                        <div class="yds_cinema_details_rating_point_number">
+                                                <p>@Model.Movie.Rate</p>
+                                        </div>
+                                        <div class="yds_cinema_details_rating_point_details">
+                                            <p>İzleyici Puanı</p>
+                                            <span>685 Yorum</span>
+                                        </div>
+                                    </div>
+                                    <div class="yds_cinema_details_link">
+                                        <a href="#cinemaYorumsDiv" title="Tüm Yorumlar">T&#252;m Yorumlar → </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <div class="yds_cinema_details_person">
+                                            <p>Yönetmen: <span class="yds_white"> <a style="color: #ffffff;" href="/tr-tr/yonetmen/ismail-fidan">@Model.Movie.Director</a></span></p>
+                </div>
+                <div class="yds_cinema_details_buttons">
+                    <form asp-area="Customer" asp-controller="Home" asp-action="PickSeat" asp-route-movieId="@Model.Movie.Id" method="post" id="pickSeatForm">
+                        <button type="submit" id="biletAlButton" class="goseances">BİLETİNİ AL</button>
+                    </form>
+                    <script>
+                        $(document).ready(function () {
+
+                            // Buton tıklandığında
+                            $("#biletAlButton").on("click", function (e) {
+                                if (tercih !== 0) {
+                                    
+                                    $("#pickSeatForm").submit();
+                                } else {
+                                    // Tercih değişkeni 0 ise uyarı mesajı ver
+                                    alert("Film seans ve salonunu seçiniz.");
+                                    e.preventDefault();
+                                }
+                            });
+                        });
+                    </script>
+                    <a href="https://www.youtube.com/" class="yds_fragman" click="ydsOverlay()">
+                            FRAGMAN
+                            <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M2 10C2 5.58172 5.58172 2 10 2C14.4183 2 18 5.58172 18 10C18 14.4183 14.4183 18 10 18C5.58172 18 2 14.4183 2 10ZM8.39061 7.09172C8.63141 6.96025 8.92479 6.97076 9.15557 7.11912L12.6556 9.36912C12.8702 9.50712 13 9.7448 13 10C13 10.2552 12.8702 10.4929 12.6556 10.6309L9.15557 12.8809C8.92479 13.0292 8.63141 13.0398 8.39061 12.9083C8.1498 12.7768 8 12.5244 8 12.25V7.75C8 7.47565 8.1498 7.22318 8.39061 7.09172Z" fill="white"></path>
+                            </svg>
+                        </a>
+                        <div class="yds_overlay">
+                            <div class="yds_overlay_container">
+                                <div class="yds_overlay_button">
+                                    <iframe id="videoModalFrame" src="https://www.youtube.com/embed/qfmEM5xRGQo?enablejsapi=1&version=3&playerapiid=ytplayer" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+                                    <button class="yds_close" click=" ydsOverlay()"><img src="../../dist/assets/img/close.svg" alt="close"></button>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="yds_cinema_movie_thread">
+            <div id="cinemaAciklamaDiv" class="yds_cinema_movie_thread_title">
+                <h2>@Model.Movie.Name: Filminin Konusu</h2>
+                <span>@Model.Movie.Name filminin detayları</span>
+            </div>
+
+            <div class="yds_cinema_movie_thread_info">
+                    <p><p>@Model.Movie.Description</p>
+                   
+            </div>
+
+            <div class="yds_cinema_movie_thread_detail">
+                <ul>
+                    <li>
+                        <strong>Vizyon Tarihi</strong>
+                        <span data-datestr="29 Aralık 2023 Cuma">@Model.Movie.ReleaseTime</span>
+                    </li>
+                    <li>
+                        <strong>Film T&#252;r&#252;</strong>
+                            <span>@Model.Movie.MovieType</span>
+                    </li>
+                    <li>
+                        <strong>S&#252;re</strong>
+                        <span>@Model.Movie.Time dakika</span>
+                    </li>
+
+                        <li style="align-items: center;display: flex;gap: 8px;">
+                            <strong>Akıllı İşaretler</strong>
+                                <span data-toggle="tooltip" title="Genel izleyici kitlesi i&#231;in uygundur."><img width="20" loading="lazy" itemprop="image" src="../../Uploads/SmartMarker/genel-izleyici-201681111188.png" alt="Genel izleyici kitlesi i&#231;in uygundur."></span>
+                        </li>
+                </ul>
+            </div>
+
+            <div class="yds_cinema_movie_thread_person">
+                <div class="yds_cinema_movie_thread_title">
+                    <h2>@Model.Movie.Name Filminin Oyuncuları</h2>
+                    <span>@Model.Movie.Name filminin kadrosu</span>
+                </div>
+
+                <div class="yds_cinema_movie_thread_person_details_flex" id="yds_cinema_movie_yorum">
+                </div>
+            </div>
+
+                <div class="yds_cinema_movie_thread_rules">
+                    <div class="yds_cinema_movie_thread_rules_title">
+                        <div class="yds_gitmeden">
+                            <div class="yds_gitmeden-kontrol">
+                                <img src="../../dist/assets/img/seanceInformation.svg">
+                                <strong>Etkinliğe Gitmeden &#246;nce kuralları okuyun.</strong>
+                            </div>
+                            <div class="yds_gitmeden-content">
+                                <p>• Gününde ve saatinde kullanılmayan biletler geçersiz olup, bilet bedeli ve hizmet bedeli iadesi ve/veya değişiklik yapılması mümkün değildir. Gün ve saatinde kullanılmayan biletlerin iadesi için Biletinial’dan talepte bulunulamaz.<br>
+• Biletiniz mücbir sebep ya da etkinliğin iptali haricinde herhangi bir sebeple kullanılamayacak ise, en geç etkinlik saatinden 1 saat önceye kadar, Biletinial ile irtibata geçmenizi rica ederiz, aksi takdirde biletinizin iptal işlemi gerçekleştirilememektedir.<br>
+• Organizasyon sahibi kurum ve/veya kuruluşlar konser verilecek alanlarda ve/veya konser salonlarında oturum düzeni ve planında uygun gördüğü durumlarda yer değişikliği yapma hakkına sahiptir.<br>
+• Kullanıcı Biletinial üzerinden satın almış olduğu biletler için etkinlik için geçerli olan yaş sınırı kurallarına uyduğunu kabul eder. Yaş sınırları için satın alınan biletin etkinlik mekanında kimlik ibrazı zorunlu olacaktır.<br>
+• Etkinliğe ait indirimli bilet tanımı olması ve indirimli bilet seçeneği ile bilet satın alınması durumunda Kullanıcı bu indirimli bilete tabi olduğu kabul ve tahaahüt eder. İndirimli biletler için satın alınan biletin etkinlik mekanında kimlik ibrazı zorunlu olacaktır.<br>
+• Etkinlik saatine geç kalınması durumunda Biletinial kullanıcının etkinlik mekanına alınması konusunda hiçbir şekilde sorumlu değildir.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="yeni_sehir_sec">
+        <h2><strong>Seansları g&#246;rmek i&#231;in şehir se&#231;iniz</strong></h2>
+        <p>Bu filmi izleyebileceğiniz sinemaları ve seansları g&#246;rebilmek i&#231;in aşağıdaki şehir se&#231; butonuna tıklayın.</p>
+        <div>
+            <a asp-action="Index"><img src="../../dist/assets/img/location.svg" alt="ŞEHİR SEÇ"><strong>Şehir Se&#231;iniz</strong></a>
+            <div class="yeni_sehir_btn">
+                <span>Pop&#252;ler Mekanlar:</span>
+                <button data-id="5" data-tur="İstanbul Avrupa" class="cityNameControl">İstanbul Avrupa</button>
+                <button data-id="77" data-tur="İstanbul Anadolu" class="cityNameControl">İstanbul Anadolu</button>
+                <button data-id="3" data-tur="Ankara" data-url="ankara" class="cityNameControl">Ankara</button>
+                <button data-id="24" data-tur="İzmir" class="cityNameControl">İzmir</button>
+                <button data-id="11" data-tur="Bursa" class="cityNameControl">Bursa</button>
+            </div>
+        </div>
+    </div>
+            <div class="yn_cinemaList">
+                <div class="yn_header">
+                    <h2> Seanslar ve Salonlar</h2>
+            
+                    
+                </div>
+                <div class="list-group w-25 " id="salonList">
+            
+                </div>
+                <div class="list-group w-25" id="filmDatetimeList">
+
+                </div>
+                <div class="" id="divSeanceList">
+
+                </div>
+
+
+
+            </div>
+            <!--burası-->
+    
+<div class="yds_cinema_movie_thread_point" id="filmin_yorumlari">
+    <div class="yds_cinema_movie_thread_point_flex">
+        <div class="yds_cinema_movie_thread_point_left">
+            <div class="yds_cinema_movie_thread_title">
+                    <h2>@Model.Movie.Name Filmine Ka&#231; Puan Veriyorsunuz?</h2>
+                <span>709 kullanıcı değerlendirdi</span>
+            </div>
+<form action="/tr-tr/Details/AddNewComment" class="form-horizontal" id="commentform" method="post"><input data-val="true" data-val-number="The field LangId must be a number." id="LangId" name="LangId" type="hidden" value="1"><input id="LangCode" name="LangCode" type="hidden" value="tr">                <div id="divCommentsError" class="error hide">
+                </div>
+                <div id="divCommentsSuccces" class="error hide">
+                </div>
+                <div class="yds_rate">
+                    <input name="Rate" type="radio" class="star" value="1">
+                    <input name="Rate" type="radio" class="star" value="2">
+                    <input name="Rate" type="radio" class="star" value="3">
+                    <input name="Rate" type="radio" class="star" value="4">
+                    <input name="Rate" type="radio" class="star" value="5">
+                </div>
+                <div class="yds_cinema_movie_thread_point_idea">
+                        <label>Film Hakkındaki Yorumlarınızı Bizimle Paylaşır Mısınız?</label>
+                    <textarea class="form-control" name="Detail" id="Detail" cols="40" rows="5" required=""></textarea>
+                    <input type="hidden" name="CommentedId" value="39846">
+                    <input name="CommentType" value="1" type="hidden">
+                </div>
+                <div class="yds_cinema_movie_thread_point_spoilercheck">
+                        <label class="chcontainer">
+                            Yorumum spoiler i&#231;erir
+                            <input type="checkbox" name="IsSpoiler" id="IsSpoiler" value="true">
+                            <span class="checkmark"></span>
+                        </label>
+                </div>
+                <a id="saveCommentBtn" onclick="SaveComments();" class="yds_yorum">G&#246;nder</a>
+</form>        </div>
+        <div class="yds_cinema_movie_thread_point_right">
+            <div class="yds_cinema_movie_thread_point_right_point">
+                    <p class="yds_point">@Model.Movie.Rate <span>/ 5</span></p>
+
+            </div>
+                <div class="yds_rate_point">
+                    <input type="radio" id="yds_star5" disabled="" name="yds_rate" value="5">
+                    <label for="yds_star5" title="text">5 stars</label>
+                    <input type="radio" id="yds_star4" disabled="" checked="" name="yds_rate" value="4">
+                    <label for="yds_star4" title="text">4 stars</label>
+                    <input type="radio" id="yds_star3" disabled="" name="yds_rate" value="3">
+                    <label for="yds_star3" title="text">3 stars</label>
+                    <input type="radio" id="yds_star2" disabled="" name="yds_rate" value="2">
+                    <label for="yds_star2" title="text">2 stars</label>
+                    <input type="radio" id="yds_star1" disabled="" name="yds_rate" value="1">
+                    <label for="yds_star1" title="text">1 star</label>
+                </div>
+
+            <div class="yds_cinema_movie_thread_point_right_rating">
+                <p>Doğrulanmış İzleyici Puanı</p>
+            </div>
+
+            <div class="yds_row">
+                <div class="yds_row_flex">
+                    <div class="yds_side">
+                        <div>5 <img src="../../dist/assets/img/icns/star.svg" alt="star"></div>
+                    </div>
+                    <div class="yds_middle">
+                        <div class="yds_bar-container">
+                                <div style="width:75.036496350365%"></div>
+                        </div>
+                    </div>
+                    <div class="yds_side yds_right">
+                        <div>514</div>
+                    </div>
+                </div>
+                <div class="yds_row_flex">
+                    <div class="yds_side">
+                        <div>4 <img src="../../dist/assets/img/icns/star.svg" alt="star"></div>
+                    </div>
+                    <div class="yds_middle">
+                        <div class="yds_bar-container">
+                                <div style="width:12.992700729927%"></div>
+                        </div>
+                    </div>
+                    <div class="yds_side yds_right">
+                        <div>89</div>
+                    </div>
+                </div>
+                <div class="yds_row_flex">
+                    <div class="yds_side">
+                        <div>3 <img src="../../dist/assets/img/icns/star.svg" alt="star"></div>
+                    </div>
+                    <div class="yds_middle">
+                        <div class="yds_bar-container">
+                                <div style="width:5.83941605839416%"></div>
+                        </div>
+                    </div>
+                    <div class="yds_side yds_right">
+                        <div>40</div>
+                    </div>
+                </div>
+                <div class="yds_row_flex">
+                    <div class="yds_side">
+                        <div>2 <img src="../../dist/assets/img/icns/star.svg" alt="star"></div>
+                    </div>
+                    <div class="yds_middle">
+                        <div class="yds_bar-container">
+                                <div style="width:2.33576642335766%"></div>
+                        </div>
+                    </div>
+                    <div class="yds_side yds_right">
+                        <div>16</div>
+                    </div>
+                </div>
+                <div class="yds_row_flex">
+                    <div class="yds_side">
+                        <div>1 <img src="../../dist/assets/img/icns/star.svg" alt="star"></div>
+                    </div>
+                    <div class="yds_middle">
+                        <div class="yds_bar-container">
+                                <div style="width:3.7956204379562%"></div>
+                        </div>
+                    </div>
+                    <div class="yds_side yds_right">
+                        <div>26</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div id="cinemaYorumsDiv" class="yds_cinema_movie_yorum">
+            <div class="yds_cinema_movie_yorum_flex">
+                <div class="yds_cinema_movie_yorum_title">
+                        <h2>@Model.Movie.Name Filmi Yorumları</h2>
+                    <span>Yorumlar,İncelemeler ve Eleştiriler </span>
+                </div>
+            </div>
+           
+
+            <div class="yds_comment_container"></div>
+        </div>
+
+</div>
+</section>
+
+            <script>
+            var tercih = 0;
+            var sessionId = 0;
+            var movieId = @Model.Movie.Id; // Razor syntax ile server tarafındaki değeri al
+            var cityIdd = @Model.cityId;
+          
+
+
+                if (cityIdd != 0) {
+                    $("#filmDatetimeList").html("");;
+                    $("#salonList").html("");
+            
+                    console.log(cityIdd);
+
+                    $.ajax({
+                        type: "GET",
+                        url: "GetSalonsById",
+                        data: { cityId: cityIdd, movieId: movieId },
+
+                        success: function (data) {
+                            // GetSalons action'ından dönen Partial View'i güncelle
+                            $("#salonList").html(data);
+                        },
+                        error: function () {
+                            console.error("GetSalons action'ı çağrılamadı.");
+                        }
+                    });
+                }
+
+                $(".cityNameControl").on("click", function () {
+                         $("#filmDatetimeList").html("");;
+                        $("#salonList").html("");
+                            var cityName = $(this).data('tur');
+                            var cityId = $(this).data('id');
+
+
+                   
+                   
+                    $.ajax({
+                        type: "GET",
+                        url: "GetSalonsById",
+                        data: { cityId: cityId, movieId: movieId },                        
+
+                        success: function (data) {
+                            // GetSalons action'ından dönen Partial View'i güncelle
+                            $("#salonList").html(data);
+                        },
+                        error: function () {
+                            console.error("GetSalons action'ı çağrılamadı.");
+                        }
+                    });
+                
+            });
+                    
+
+                $(document).ready(function () {
+                    $("#salonList").on('click', '.filmSalonId', function (event) {
+                        event.preventDefault();
+
+                        var salonId = $(this).data('val');
+                                        var salonName = $(this).data('name');
+                            // Diğer li elemanlarının içeriğini temizle
+                            $(".filmSalonId").not(this).remove();
+                            console.log("hello");
+                            $.ajax({
+                            type: "GET",
+                            url: "GetFilmDateTimes",
+                            data: { salonId: salonId, movieId: movieId },
+                            success: function (data) {
+                            $("#filmDatetimeList").html(data);
+                            },
+                            error: function () {
+                            console.error("GetFilmDateTimes action'ı çağrılamadı.");
+                            }
+                        });
+                        
+                    
+                    });
+                });
+
+                $(document).ready(function () {
+        $("#filmDatetimeList").on('click', '.filmtp', function (event) {
+                        event.preventDefault();
+
+                        sessionId = $(this).data('sessionid');
+                        $(".filmtp").not(this).remove();
+                        console.log("hello");
+                        console.log(sessionId+" ");
+                        tercih = 1;
+                        $("#pickSeatForm").append('<input type="hidden" name="sessionId" value="' + sessionId + '">');
+
+                    });
+                });
+
+            </script>

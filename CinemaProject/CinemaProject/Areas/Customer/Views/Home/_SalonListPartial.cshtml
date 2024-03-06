@@ -1,0 +1,11 @@
+﻿@model List<Cinema>
+
+
+    @foreach (var salon in Model)
+    {
+        <a href="#" data-val="@salon.Id"  data-name="@salon.Name" class="list-group-item list-group-item-action filmSalonId" >@salon.Name</a>
+    }
+
+
+
+                                            

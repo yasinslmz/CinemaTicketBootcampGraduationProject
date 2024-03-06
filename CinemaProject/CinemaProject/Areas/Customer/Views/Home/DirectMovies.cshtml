@@ -1,0 +1,458 @@
+﻿@model CinemaProject.Areas.Customer.Models.MovieDirectVM
+<div class="dreadcrumb">
+
+
+    <h1 title="Vizyondaki Filmler">
+        Vizyondaki Filmler
+
+    </h1>
+
+
+
+
+    <ul>
+        <li><a href="/tr-tr" title="title">Ana Sayfa</a></li>
+        <li>Vizyondaki Filmler</li>
+    </ul>
+</div>
+<div class="kategori">
+
+
+    <div class="kategori__filtre">
+        <div class="sehir-detay__etkinlikler">
+
+            <div class="etkinliklerDis">
+                <form class="search" method="get" action="/tr-tr/sinema">
+                    <div class="sehir-detay__etkinlikler__filtre" data-kontrol="Şehir">
+                        <div class="sehir-detay__etkinlikler__filtre--mobilBaslik">
+                            <button class="tumfiltreleriTemizle">Tüm Filtreleri Temizle</button>
+                            <button class="etkinlikmekanKapat" type="button">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M13.41,12l6.3-6.29a1,1,0,1,0-1.42-1.42L12,10.59,5.71,4.29A1,1,0,0,0,4.29,5.71L10.59,12l-6.3,6.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l6.29,6.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z"></path></svg>
+                                KAPAT
+                            </button>
+                        </div>
+                        <div class="sehir-detay__etkinlikler__filtre__mekanlar filtre__mekanlar_sehir">
+                            <span>Şehir</span>
+
+                            <ul class="sehir-detay__etkinlikler__mekanfiltre">
+                                <li>
+                                    <b class="cateorySeciliSehirText">Şehir Se&#231;iniz</b><img src="~/dist/assets/img/sehirasagiicon.svg" alt="Aşağı İkon">
+
+                                    <div>
+                                        <button class="categoriesSehirTemizle">Filtreyi Temizle</button>
+                                        <div class="sehir-detay__etkinlikler__filtre--mobil---altbaslik">
+                                            <button>
+                                                <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewbox="0 0 24 24">
+                                                    <path d="M8.5,12.8l5.7,5.6c0.4,0.4,1,0.4,1.4,0c0,0,0,0,0,0c0.4-0.4,0.4-1,0-1.4l-4.9-5l4.9-5c0.4-0.4,0.4-1,0-1.4
+	c-0.2-0.2-0.4-0.3-0.7-0.3c-0.3,0-0.5,0.1-0.7,0.3l-5.7,5.6C8.1,11.7,8.1,12.3,8.5,12.8C8.5,12.7,8.5,12.7,8.5,12.8z"></path>
+                                                </svg>
+                                                Geri
+                                            </button>
+                                        </div>
+                                        <ul>
+
+
+                                            <li id="cityId-5" data-id="5" data-tur="İstanbul Avrupa" data-url="istanbul-avrupa"><label class="checkboxYN">İstanbul Avrupa<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-77" data-id="77" data-tur="İstanbul Anadolu" data-url="istanbul-anadolu"><label class="checkboxYN">İstanbul Anadolu<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-11" data-id="11" data-tur="Bursa" data-url="bursa"><label class="checkboxYN">Bursa<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-3" data-id="3" data-tur="Ankara" data-url="ankara"><label class="checkboxYN">Ankara<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-24" data-id="24" data-tur="İzmir" data-url="izmir"><label class="checkboxYN">İzmir<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-19" data-id="19" data-tur="Eskişehir" data-url="eskisehir"><label class="checkboxYN">Eskişehir<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-12" data-id="12" data-tur="Adana" data-url="adana"><label class="checkboxYN">Adana<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-96" data-id="96" data-tur="Adıyaman" data-url="adiyaman"><label class="checkboxYN">Adıyaman<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-97" data-id="97" data-tur="Ağrı" data-url="agri"><label class="checkboxYN">Ağrı<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-75" data-id="75" data-tur="Amasya" data-url="amasya"><label class="checkboxYN">Amasya<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-23" data-id="23" data-tur="Antalya" data-url="antalya"><label class="checkboxYN">Antalya<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-80" data-id="80" data-tur="Artvin" data-url="artvin"><label class="checkboxYN">Artvin<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-29" data-id="29" data-tur="Aydın" data-url="aydin"><label class="checkboxYN">Aydın<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-25" data-id="25" data-tur="Balıkesir" data-url="balikesir"><label class="checkboxYN">Balıkesir<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-86" data-id="86" data-tur="Bilecik" data-url="bilecik"><label class="checkboxYN">Bilecik<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-98" data-id="98" data-tur="Bing&#246;l" data-url="bingol"><label class="checkboxYN">Bing&#246;l<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-99" data-id="99" data-tur="Bitlis" data-url="bitlis"><label class="checkboxYN">Bitlis<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-36" data-id="36" data-tur="Bolu" data-url="bolu"><label class="checkboxYN">Bolu<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-81" data-id="81" data-tur="Burdur" data-url="burdur"><label class="checkboxYN">Burdur<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-78" data-id="78" data-tur="&#199;anakkale" data-url="canakkale"><label class="checkboxYN">&#199;anakkale<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-14" data-id="14" data-tur="Denizli" data-url="denizli"><label class="checkboxYN">Denizli<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-10" data-id="10" data-tur="Diyarbakır" data-url="diyarbakir"><label class="checkboxYN">Diyarbakır<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-53" data-id="53" data-tur="Edirne" data-url="edirne"><label class="checkboxYN">Edirne<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-33" data-id="33" data-tur="Elazığ " data-url="elazig"><label class="checkboxYN">Elazığ <input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-42" data-id="42" data-tur="Erzincan" data-url="erzincan"><label class="checkboxYN">Erzincan<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-90" data-id="90" data-tur="Erzurum" data-url="erzurum"><label class="checkboxYN">Erzurum<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-9" data-id="9" data-tur="Gaziantep" data-url="gaziantep"><label class="checkboxYN">Gaziantep<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-88" data-id="88" data-tur="Giresun" data-url="giresun"><label class="checkboxYN">Giresun<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-34" data-id="34" data-tur="G&#252;m&#252;şhane" data-url="gumushane"><label class="checkboxYN">G&#252;m&#252;şhane<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-8" data-id="8" data-tur="Hatay" data-url="hatay"><label class="checkboxYN">Hatay<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-28" data-id="28" data-tur="Isparta" data-url="isparta"><label class="checkboxYN">Isparta<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-85" data-id="85" data-tur="Mersin" data-url="mersin"><label class="checkboxYN">Mersin<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-101" data-id="101" data-tur="Kars" data-url="kars"><label class="checkboxYN">Kars<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-41" data-id="41" data-tur="Kastamonu" data-url="kastamonu"><label class="checkboxYN">Kastamonu<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-83" data-id="83" data-tur="Kayseri" data-url="kayseri"><label class="checkboxYN">Kayseri<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-30" data-id="30" data-tur="Kırklareli" data-url="kirklareli"><label class="checkboxYN">Kırklareli<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-20" data-id="20" data-tur="Kocaeli" data-url="kocaeli"><label class="checkboxYN">Kocaeli<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-13" data-id="13" data-tur="Konya" data-url="konya"><label class="checkboxYN">Konya<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-38" data-id="38" data-tur="K&#252;tahya" data-url="kutahya"><label class="checkboxYN">K&#252;tahya<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-69" data-id="69" data-tur="Manisa" data-url="manisa"><label class="checkboxYN">Manisa<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-89" data-id="89" data-tur="Kahramanmaraş" data-url="k-maras"><label class="checkboxYN">Kahramanmaraş<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-103" data-id="103" data-tur="Mardin" data-url="mardin"><label class="checkboxYN">Mardin<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-4" data-id="4" data-tur="Muğla" data-url="mugla"><label class="checkboxYN">Muğla<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-104" data-id="104" data-tur="Muş" data-url="mus"><label class="checkboxYN">Muş<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-18" data-id="18" data-tur="Nevşehir" data-url="nevsehir"><label class="checkboxYN">Nevşehir<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-82" data-id="82" data-tur="Niğde" data-url="nigde"><label class="checkboxYN">Niğde<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-48" data-id="48" data-tur="Ordu" data-url="ordu"><label class="checkboxYN">Ordu<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-32" data-id="32" data-tur="Rize" data-url="rize"><label class="checkboxYN">Rize<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-39" data-id="39" data-tur="Sakarya" data-url="sakarya"><label class="checkboxYN">Sakarya<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-43" data-id="43" data-tur="Samsun" data-url="samsun"><label class="checkboxYN">Samsun<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-94" data-id="94" data-tur="Siirt" data-url="siirt"><label class="checkboxYN">Siirt<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-92" data-id="92" data-tur="Sinop" data-url="sinop"><label class="checkboxYN">Sinop<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-73" data-id="73" data-tur="Sivas" data-url="sivas"><label class="checkboxYN">Sivas<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-84" data-id="84" data-tur="Tekirdağ" data-url="tekirdag"><label class="checkboxYN">Tekirdağ<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-106" data-id="106" data-tur="Tokat" data-url="tokat"><label class="checkboxYN">Tokat<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-16" data-id="16" data-tur="Trabzon" data-url="trabzon"><label class="checkboxYN">Trabzon<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-107" data-id="107" data-tur="Tunceli" data-url="tunceli"><label class="checkboxYN">Tunceli<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-108" data-id="108" data-tur="Şanlıurfa" data-url="sanliurfa"><label class="checkboxYN">Şanlıurfa<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-68" data-id="68" data-tur="Uşak" data-url="usak"><label class="checkboxYN">Uşak<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-109" data-id="109" data-tur="Van" data-url="van"><label class="checkboxYN">Van<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-110" data-id="110" data-tur="Yozgat" data-url="yozgat"><label class="checkboxYN">Yozgat<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-6" data-id="6" data-tur="Zonguldak" data-url="zonguldak"><label class="checkboxYN">Zonguldak<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-111" data-id="111" data-tur="Bayburt" data-url="bayburt"><label class="checkboxYN">Bayburt<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-45" data-id="45" data-tur="Karaman" data-url="karaman"><label class="checkboxYN">Karaman<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-95" data-id="95" data-tur="Batman" data-url="batman"><label class="checkboxYN">Batman<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-112" data-id="112" data-tur="Şırnak" data-url="sirnak"><label class="checkboxYN">Şırnak<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-35" data-id="35" data-tur="Bartın" data-url="bartin"><label class="checkboxYN">Bartın<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-21" data-id="21" data-tur="Yalova" data-url="yalova"><label class="checkboxYN">Yalova<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-91" data-id="91" data-tur="Karab&#252;k" data-url="karabuk"><label class="checkboxYN">Karab&#252;k<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-49" data-id="49" data-tur="Osmaniye" data-url="osmaniye"><label class="checkboxYN">Osmaniye<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-31" data-id="31" data-tur="D&#252;zce" data-url="duzce"><label class="checkboxYN">D&#252;zce<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                            <li id="cityId-55" data-id="55" data-tur="Kıbrıs" data-url="kibris"><label class="checkboxYN">Kıbrıs<input type="checkbox" class="checkboxCityId filterCheck" value=""><span class="checkmark"></span></label></li>
+                                        </ul>
+                                        <button class="sehir-detay__etkinlikler__mekanfiltre--sonuc etkinlikmekanKapat">SONUÇLARI GÖSTER</button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="sehir-detay__etkinlikler__filtre__mekanlar filtre__mekanlar_mekan">
+                            <span>Mekan</span>
+
+                            <ul class="sehir-detay__etkinlikler__mekanfiltre">
+                                <li>
+                                    <b class="cateorySeciliMekanText">Mekan Se&#231;iniz</b><img src="~/dist/assets/img/sehirasagiicon.svg" alt="Aşağı İkon">
+                                    <div>
+                                        <button class="categoriesMekanTemizle">Filtreyi Temizle</button>
+                                        <div class="sehir-detay__etkinlikler__filtre--mobil---altbaslik">
+                                            <button>
+                                                <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewbox="0 0 24 24">
+                                                    <path d="M8.5,12.8l5.7,5.6c0.4,0.4,1,0.4,1.4,0c0,0,0,0,0,0c0.4-0.4,0.4-1,0-1.4l-4.9-5l4.9-5c0.4-0.4,0.4-1,0-1.4
+c-0.2-0.2-0.4-0.3-0.7-0.3c-0.3,0-0.5,0.1-0.7,0.3l-5.7,5.6C8.1,11.7,8.1,12.3,8.5,12.8C8.5,12.7,8.5,12.7,8.5,12.8z"></path>
+                                                </svg>
+                                                Geri
+                                            </button>
+                                        </div>
+
+                                        <div id="salonList" class="list-group">
+                                        </div>
+                                        <button class="sehir-detay__etkinlikler__mekanfiltre--sonuc etkinlikmekanKapat">SONUÇLARI GÖSTER</button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="sehir-detay__etkinlikler__filtre__etkinlikturu filtre__etkinlikturu_tur">
+                            <span>T&#252;r</span>
+                            <ul class="sehir-detay__etkinlikler__etkinlikfiltre">
+                                <li>
+                                    <b class="cateorySeciliTypeText">T&#252;r Se&#231;iniz</b><img src="~/dist/assets/img/sehirasagiicon.svg" alt="Aşağı İkon">
+                                    <div>
+                                        <button class="categoriesTypeTemizle">Filtreyi Temizle</button>
+                                        <div class="sehir-detay__etkinlikler__filtre--mobil---altbaslik">
+                                            <button>
+                                                <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewbox="0 0 24 24">
+                                                    <path d="M8.5,12.8l5.7,5.6c0.4,0.4,1,0.4,1.4,0c0,0,0,0,0,0c0.4-0.4,0.4-1,0-1.4l-4.9-5l4.9-5c0.4-0.4,0.4-1,0-1.4
+	c-0.2-0.2-0.4-0.3-0.7-0.3c-0.3,0-0.5,0.1-0.7,0.3l-5.7,5.6C8.1,11.7,8.1,12.3,8.5,12.8C8.5,12.7,8.5,12.7,8.5,12.8z"></path>
+                                                </svg>
+                                                Geri
+                                            </button>
+                                        </div>
+                                        <ul class="sehir-detay__etkinlikler__etkinlikfiltre--liste" id="filmTypeList">
+                                        </ul>
+                                        <button class="sehir-detay__etkinlikler__mekanfiltre--sonuc etkinlikmekanKapat">SONUÇLARI GÖSTER</button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="sehir-detay__etkinlikler__filtre__etkinlikturu filtre__etkinlikturu_tarih">
+                            <span>Etkinlik Tarihi</span>
+                            <ul class="sehir-detay__etkinlikler__etkinlikfiltre">
+                                <li>
+                                    <b class="cateorySeciliDateText">Etkinlik Tarihi Se&#231;iniz</b><img src="~/dist/assets/img/sehirasagiicon.svg" alt="Aşağı İkon">
+                                    <div>
+                                        <button class="categoriesTarihTemizle">Filtreyi Temizle</button>
+                                        <div class="sehir-detay__etkinlikler__filtre--mobil---altbaslik">
+                                            <button>
+                                                <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewbox="0 0 24 24">
+                                                    <path d="M8.5,12.8l5.7,5.6c0.4,0.4,1,0.4,1.4,0c0,0,0,0,0,0c0.4-0.4,0.4-1,0-1.4l-4.9-5l4.9-5c0.4-0.4,0.4-1,0-1.4
+c-0.2-0.2-0.4-0.3-0.7-0.3c-0.3,0-0.5,0.1-0.7,0.3l-5.7,5.6C8.1,11.7,8.1,12.3,8.5,12.8C8.5,12.7,8.5,12.7,8.5,12.8z"></path>
+                                                </svg>
+                                                Geri
+                                            </button>
+                                        </div>
+
+                                        <ul class="sehir-detay__etkinlikler__etkinlikfiltre--liste " id="sehirdetay">
+                                            <ul class="sehir-detay__etkinlikler__etkinlikfiltre--liste" id="filmDateList">
+                                            </ul>
+
+                                            <li><a asp-area="Customer" asp-controller="Home" asp-action="DirectMovies" class="btn btn-success btn-hover">Filmleri Getir</a></li>
+
+                                        </ul>
+                                        <input type="hidden" class="categoriesHiddenCity" name="cityId" value="0">
+                                        <input type="hidden" class="categoriesHiddenLoc" name="loc" value="0">
+                                        <input type="hidden" class="categoriesHiddenFilmtype" name="filmTypeId" value="0">
+                                        <input type="hidden" class="categoriesHiddenDate" name="date">
+                                        <input type="hidden" class="categoriesHiddenIsweekend" name="thisweekend">
+
+
+                                        <button class="sehir-detay__etkinlikler__mekanfiltre--sonuc etkinlikmekanKapat">SONUÇLARI GÖSTER</button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <button class="kategori--mobil--filtrele" onclick="kategori_filtre()">Filtrele<img src="~/dist/assets/img/filtreleYN.svg" width="16" alt="Filtre İkonu"></button>
+            <div class="kategori__overlay"></div>
+
+
+            <div class="sehir-detay__etkinlikler__eklenenMekanlar"></div>
+        </div>
+        <div class="kategori__filtre__taglar">
+        </div>
+        <div class="filterResults flex alignCenter">
+        </div>
+    </div>
+    <div id="kategori__etkinlikler" class="kategori__etkinlikler">
+        <ul>
+            @if (Model.movies != null && Model.movies.Count > 0)
+            {
+                foreach (var movie in Model.movies)
+                {
+                    <li>
+                        
+                        <figure>
+                            <a asp-area="Customer" asp-controller="Home" asp-action="MovieDetail" asp-route-movieId="@movie.Id" asp-route-cityId="@Model.cityId" class="biletAlButton"><img src="~/@movie.Image" alt="alt"></a>
+                        </figure>
+                        <h3><a href="MovieDetail?movieId=@movie.Id" title="">@movie.Name</a></h3>
+                    </li>
+                }
+            }
+        </ul>
+
+    </div>
+
+    <input type="hidden" id="categoryPage" value="1">
+    <input type="hidden" id="categoryPageSize" value="25">
+    <input type="hidden" id="categoryOrganizerType" value="Cinema">
+    <input type="hidden" id="categoryListCount">
+
+
+
+
+
+    <div class="sehrini-kesfet">
+        <div class="sehrini-kesfet__sehirvar">
+            <div class="sehrini-kesfet__konum">
+                <img src="~/dist/assets/img/konumikon.svg" alt="location icon">
+                <div onclick="switchCity()">
+                    <span>Konum</span>
+                    <strong>Şehir Se&#231;iniz</strong>
+                </div>
+            </div>
+            <div class="sehrini-kesfet__linkler">
+                <a href="#" title="" id="sehrini-kesfet__linkler_Etkinlikler">
+                    <img src="~/dist/assets/img/biletikon.svg" alt="ticket icon">
+                    <span>Şehrine &#214;zel Etkinlikler</span>
+                </a>
+
+
+            </div>
+        </div>
+        <div class="sehrini-kesfet__sehiryok">
+            <strong>Şehrini Keşfet</strong>
+            <span>Şehrine &#246;zel etkinlikleri, mekanları g&#246;r, incele ve değerlendir!</span>
+            <button onclick="switchCity()">Şehir Se&#231;iniz</button>
+        </div>
+    </div>
+</div>
+<script>
+
+    var cinemaInfo = {
+        city: "",
+        cinemaName: "",
+        filmType: "",
+        cinemaDate: "01-01-2024",
+        cityId: 0,
+        cinemaSalonId: 0
+    };
+
+    var organizerType = 1;
+    if (organizerType == null) {
+        organizerType = $('.categoryOrganizerType').val(organizerType);
+
+    }
+
+</script>
+
+<script>
+    $(document).ready(function () {
+        // Başlangıçta sehirdetay'ı gizle
+        $("#sehirdetay").css("display", "none");
+
+
+
+    });
+
+    function dateShow() {
+        // Eğer city, filmType ve cinemaName null değilse
+        if (cinemaInfo.city != "" && cinemaInfo.filmType != "" && cinemaInfo.cinemaName != "") {
+            // Görünürlüğü değiştir
+            $("#sehirdetay").css("display", "block");
+        }
+
+    }
+
+    $(".checkboxCityId").change(function () {
+
+        if (this.checked) {
+            $("#filmTypeList").html("");
+            var cityName = $(this).parent().parent().data('tur');
+            cinemaInfo.cityId = $(this).parent().parent().data('id');
+
+            $(".cateorySeciliSehirText").text(cityName);
+            cinemaInfo.city = cityName; console.log(cinemaInfo);
+            // Set the values for the hidden input
+            $(".categoriesHiddenCity").val(cinemaInfo.cityId);
+            // Diğer checkbox'ların checked özelliklerini kaldır
+            $(".checkboxCityId").not(this).prop('checked', false);
+            // Şehir ID'sini kullanarak GetSalons action'ını çağır
+            $.ajax({
+                type: "GET",
+                url: "GetSalons",
+                data: { cityId: cinemaInfo.cityId },
+                success: function (data) {
+                    // GetSalons action'ından dönen Partial View'i güncelle
+                    $("#salonList").html(data);
+                },
+                error: function () {
+                    console.error("GetSalons action'ı çağrılamadı.");
+                }
+            });
+
+        }
+    });
+
+
+    $(document).ready(function () {
+        $("#salonList").on('click', '.filmSalonId', function (event) {
+            event.preventDefault();
+
+            var salonId = $(this).data('val'); 
+            var salonName = $(this).data('name');
+            $(".cateorySeciliMekanText").text(salonName);
+            // Diğer işlemlerinizi buraya ekleyin
+            cinemaInfo.cinemaSalonId = salonId;
+            // AJAX isteğinizi burada gerçekleştirin
+            $.ajax({
+                type: "GET",
+                url: "GetFilmTypes",
+                data: { salonId: salonId },
+                success: function (data) {
+                    $("#filmTypeList").html(data);
+                },
+                error: function () {
+                    console.error("GetFilmTypes action'ı çağrılamadı.");
+                }
+            });
+            var cinema = $(this).data('name');
+            cinemaInfo.cinemaName = cinema;
+            console.log(cinemaInfo);
+            $(".categoriesHiddenLoc").val(cinema);
+        });
+    });
+
+    $("#filmTypeList").on('change', '.checkboxFilmTypeId', function () {
+        if (this.checked) {
+            console.log("adssd");
+            var movieType = $(this).parent().parent().data('tur');
+
+            // Set the values for the hidden input
+            $(".categoriesHiddenFilmtype").val(movieType);
+            // Diğer checkbox'ların checked özelliklerini kaldır
+            $(".checkboxFilmTypeId").not(this).prop('checked', false);
+            $(".cateorySeciliTypeText").text(movieType);
+            cinemaInfo.filmType = movieType;
+            console.log(cinemaInfo);
+            // AJAX isteğinizi burada gerçekleştirin
+            $.ajax({
+                type: "GET",
+                url: "GetFilmDates",
+                data: { movieType: movieType, salonId: cinemaInfo.cinemaSalonId },
+                success: function (data) {
+                    $("#filmDateList").html(data);
+                },
+                error: function () {
+                    console.error("GetFilmDates action'ı çağrılamadı.");
+                }
+            });
+            // Set the values for the hidden input
+            $(".categoriesHiddenFilmtype").val(movieType);
+            dateShow();
+        }
+    });
+
+
+
+    $("#filmDateList").on('change', '.checkboxDate', function () {
+
+        if (this.checked && cinemaInfo.cinemaName != "" && cinemaInfo.filmType != "" && cinemaInfo.city != "") {
+
+            var filmDate = $(this).parent().parent().data('value');
+
+            // Alert for testing purposes
+
+            cinemaInfo.cinemaDate = filmDate; console.log(filmDate);
+            // Set the values for the hidden input
+            $(".categoriesHiddenDate").val(filmDate);
+            // Diğer checkbox'ların checked özelliklerini kaldır
+            $(".checkboxDate").not(this).prop('checked', false);
+            $(".cateorySeciliDateText").text(filmDate);
+            console.log(cinemaInfo);
+            console.log(JSON.stringify(cinemaInfo));
+            $.ajax({
+                type: "GET",
+                url: "GetFilms",
+                data: {
+                    cityId: cinemaInfo.cityId,
+                    city: cinemaInfo.city,
+                    cinemaName: cinemaInfo.cinemaName,
+                    filmType: cinemaInfo.filmType,
+                    cinemaDate: cinemaInfo.cinemaDate
+                },
+                success: function (data) {
+                    console.log("Filmler geldi");
+
+                },
+                error: function () {
+                    console.error("Filmler çağrılamadı.");
+                }
+            });
+
+
+        }
+    });
+
+   
+
+
+
+
+
+</script>

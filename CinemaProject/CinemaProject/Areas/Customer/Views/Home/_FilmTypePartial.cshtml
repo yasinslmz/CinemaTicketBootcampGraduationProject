@@ -1,0 +1,9 @@
+﻿
+@model List<string>
+
+
+    @foreach (var type in Model)
+    {
+ <li value="@type" data-tur="@type"><label class="checkboxYN">@type<input type="checkbox" class="checkboxFilmTypeId filterCheck" value="@type"><span class="checkmark"></span></label></li>
+    }
+

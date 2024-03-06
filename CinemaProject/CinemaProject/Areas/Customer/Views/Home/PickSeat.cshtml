@@ -1,0 +1,236 @@
+﻿@model CinemaProject.Areas.Customer.Models.MovieDetailVM
+
+
+<input type="hidden" id="LoveSeatWarning1" value="İkili koltuk i&#231;in en az 2 bilet almanız gerekmektedir." />
+<input type="hidden" id="LoveSeatWarning2" value="İkili koltuklar birlikte se&#231;ilmelidir." />
+
+
+
+<div class="floatSummary closed tr" id="floatSummary">
+    <a class="collapseSummary" onclick="collapseSummary();"><small>Bilet Fiyatları</small></a>
+    <div class="prices">
+        <span class="title" id="floatSummaryheader">
+            BİLET FİYATLARI
+        </span>
+        <div class="priceList owl-carousel owl-theme" id="pricesSlider">
+            <div class="item">
+               
+            </div>
+        </div>
+        <div class="priceList owl-carousel owl-theme" id="pricesSlider">
+            <div class="item" class="text-center">
+                <strong id="selectedSeatsInfo"></strong>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <form id="paymentForm" asp-area="Customer" asp-controller="Home" asp-action="Pay" method="post">
+                <input type="hidden" name="selectedSeats" id="selectedSeatsInput" value="">
+                <input type="hidden" name="cinemaSessionId" id="cinemaSessionId" value="@Model.cinemaSession.Id">
+                <input type="submit" id="odeButton" class="btn btn-success mt-2" value="ÖDEME YAP">
+            </form>
+        </div>
+    </div>
+</div>
+
+<section class="seatsSummaryLine yn_summary">
+        <div>
+            <div class="eventDetailSummary">
+            <a asp-action="Index" class="posterLink">
+                <img src="~/@Model.Movie.Image" class="poster" />
+                </a>
+                <div class="posterNext">
+                    <h1>
+                    <a asp-action="Index">@Model.Movie.Name</a>
+                    </h1>
+                    <span class="eventLoc">
+                    <a asp-action="Index"><img width="14" src="~/@Model.Movie.Image" alt="Etkinlik Mekanı" />@Model.cinema.Name</a> 
+                    </span>
+                <span class="date"><img width="12" src="https://b6s54eznn8xq.merlincdn.net/dist/assets/img/yn_saat.svg" alt="Etkinlik Tarihi" />@Model.cinemaSession.SessionTime?.ToShortDateString() <b> , @Model.cinemaSession.SessionTime?.ToShortTimeString()</b></span>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="timeCircle">
+            <date id="time"></date>
+            <span>Dk Kaldı</span>
+        </div>
+    <script>
+        // Sayfa yüklendiğinde çalışacak olan fonksiyon
+        window.onload = function () {
+            // Countdown başlangıç değeri (dakika cinsinden)
+            var countdownValue = 9 * 60 + 30; // Örneğin 9:30 için
+
+            // Countdown başlatma fonksiyonu
+            function startCountdown() {
+                // Her saniyede bir güncelleme yap
+                var countdownInterval = setInterval(function () {
+                    // Kalan süreyi bir dakika ve saniye olarak hesapla
+                    var minutes = Math.floor(countdownValue / 60);
+                    var seconds = countdownValue % 60;
+
+                    // HTML'e yazdır
+                    document.getElementById('time').textContent = formatTime(minutes) + ':' + formatTime(seconds);
+
+                    // Süreyi azalt
+                    countdownValue--;
+
+                    // Süre bittiğinde interval'ı temizle
+                    if (countdownValue < 0) {
+                        clearInterval(countdownInterval);
+                        document.getElementById('time').textContent = 'Süre doldu';
+                    }
+                }, 1000); // 1000 milisaniye = 1 saniye
+            }
+
+            // Sayıyı iki basamaklı stringe çevirme fonksiyonu
+            function formatTime(value) {
+                return value < 10 ? '0' + value : value;
+            }
+
+            // Countdown'ı başlat
+            startCountdown();
+        };
+    </script>
+</section>
+
+            <div class="seatsPrev" id="selectBlockWarning" style="display:none">
+                <span>L&#252;tfen Blok Se&#231;iniz</span>
+            </div>
+            <div id="spnSeatsPrev" class="seatsPrev ">
+                <span class="selectedSeat">Se&#231;ilen </span>
+                <span class="unavailableSeat">Dolu </span>
+                <span class="availableSeat">Boş </span>
+            </div>
+
+
+
+<style>
+    @@media screen and (min-width:180px) and (max-width:559px) {
+        .koltuklar .koltuk_sira .koltuk_tek {
+            font-size: 7px !important;
+        }
+    }
+</style>
+
+<style>
+    .normal-koltuk {
+        background-color: white;
+    }
+
+    .closed-seat {
+        background-color: #cccccc;
+    }
+
+    .selected-seat {
+        background-color: yellow;
+    }
+</style>
+
+
+        <section class="koltukSecimi " style="display: block">
+
+
+    <div class="koltuk-secim">
+        <div class="koltuklar">
+            @foreach (var seatRow in Model.GroupedSeats)
+            {
+                <div class="koltuk_sira">
+                    @foreach (var seat in seatRow)
+                    {
+                        <span class="koltuk_tek normal-koltuk @(seat.IsOccupied.HasValue && seat.IsOccupied.Value ? "closed-seat" : "normal-koltuk")"
+                              style="@(seat.IsOccupied.HasValue && seat.IsOccupied.Value ? "background-color: #cccccc;" : "")"
+                              onclick="@(seat.IsOccupied.HasValue && seat.IsOccupied.Value ? "KapaliUyari();" : "SeatClick(" + seat.Id + ");")"
+                              data-place="@seat.Seat.RowColumn"
+                              data-seatId="@seat.Id">
+                            @seat.Seat.RowColumn
+                        </span>
+                    }
+                </div>
+            }   
+        </div>
+    </div>
+
+    <script>
+    // Seçilen koltukları tutan global değişken
+    var selectedSeats = [];
+
+        // Koltuk fiyatı
+        var seatPrice = 190.00;
+    // SeatClick fonksiyonu örneği
+    function SeatClick(seatId) {
+        // Burada yapılacak işlemleri ekleyebilirsiniz.
+        console.log("Koltuk tıklandı: " + seatId);
+    }
+
+    $(document).ready(function () {
+        // Koltuk tıklama olayı
+        $(".koltuk_tek").click(function () {
+            var seatId = $(this).data("seatid");
+
+            // Koltuk durumunu kontrol et
+            if ($(this).hasClass("closed-seat")) {
+                // Koltuk dolu ise uyarı ver
+                return; // Fonksiyondan çık
+            }
+
+            // Koltuk seçildi mi kontrol et
+            if ($(this).hasClass("selected-seat")) {
+                // Koltuk seçildiyse, seçimi kaldır
+                $(this).removeClass("selected-seat");
+                // Seçilen koltuğu listeden kaldır
+                selectedSeats = selectedSeats.filter(function (id) {
+                    return id !== seatId;
+                });
+            } else {
+                // Koltuk seçilmediyse, seçimi ekle
+                $(this).addClass("selected-seat");
+                // Seçilen koltuğu listeye ekle
+                selectedSeats.push(seatId);
+                console.log(selectedSeats);
+            }
+
+            // Seçilen koltukları konsola yazdır
+                console.log("Seçilen Koltuklar: " + selectedSeats.join(", "));// Seçilen koltukları güncelle
+                updateSelectedSeatsInfo();
+            
+        });
+
+            // Koltuk bilgisini güncelle
+            function updateSelectedSeatsInfo() {
+                var selectedSeatsCount = selectedSeats.length;
+                var selectedSeatsInfo = selectedSeatsCount > 0 ?
+                    selectedSeatsCount + " Tam Bilet (" + formatCurrency(selectedSeatsCount * seatPrice) + ")" :
+                    "Henüz koltuk seçilmedi.";
+
+                $("#selectedSeatsInfo").text(selectedSeatsInfo);
+                var Seats = selectedSeats.join(", ");
+                //console.log($("#selectedSeatsInput").val(selectedSeats));
+                console.log(Seats);
+                $("#selectedSeatsInput").val(Seats);
+            }
+
+            // Ödeme yap butonuna tıklandığında toplam ücreti hesapla
+            function calculateTotal() {
+                var selectedSeatsCount = selectedSeats.length;
+                var totalAmount = selectedSeatsCount * seatPrice;
+                alert("Toplam Ödeme Miktarı: " + formatCurrency(totalAmount));
+            }
+
+            // Para birimini biçimlendirme fonksiyonu
+            function formatCurrency(amount) {
+                return amount.toFixed(2) + " TL";
+            }
+
+
+        });
+        
+</script>
+       
+            </div>
+
+                <div class="stage">
+                    PERDE
+                </div>
+
+        </section>

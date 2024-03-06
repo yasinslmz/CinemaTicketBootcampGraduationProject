@@ -1,0 +1,46 @@
+﻿@model List<CinemaProject.Areas.Customer.Models.FilmSession>
+<style>
+    li {
+        list-style: none;
+        marker: none;
+    }
+</style>
+
+@foreach (var session in Model)
+{
+    <li value="@session.SessionTime" data-value="@session.SessionTime">
+        <a href="#" data-sessionid="@session.CinemaSessionId" data-datetime="@session.SessionTime" data-val="@session.MovieSpecified.Id" data-name="@session.MovieSpecified.Id" class="list-group-item list-group-item-action filmtp">
+            @session.SessionTime?.ToShortDateString() @session.SessionTime?.ToShortTimeString()
+
+            <!-- İngilizce -->
+            @if (session.MovieSpecified.IsEnglish == true)
+            {
+                <button class="btn btn-info">İngilizce</button>
+            }
+
+            <!-- Türkçe -->
+            @if (session.MovieSpecified.IsTurkish == true)
+            {
+                <button class="btn btn-success">Türkçe</button>
+            }
+
+            <!-- IMAX -->
+            @if (session.MovieSpecified.IsImax == true)
+            {
+                <button class="btn btn-warning">IMAX</button>
+            }
+
+            <!-- 3D -->
+            @if (session.MovieSpecified.Is3d == true)
+            {
+                <button class="btn btn-danger">3D</button>
+            }
+
+            <!-- 2D -->
+            @if (session.MovieSpecified.Is2d == true)
+            {
+                <button class="btn btn-primary">2D</button>
+            }
+        </a>
+    </li>
+}

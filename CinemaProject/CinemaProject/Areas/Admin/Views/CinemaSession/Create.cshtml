@@ -1,0 +1,40 @@
+﻿@model CinemaProject.Models.CinemaSession
+
+@{
+    ViewData["Title"] = "AddSession";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1 class="text-white">Seans Ekle</h1>
+        
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CinemaSalonId" class="control-label text-white">Salon</label>
+                <select asp-for="CinemaSalonId" class="form-control" asp-items="@Model.CinemaSalonOptions"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="SessionTime" class="control-label text-white">Seans</label>
+                <input asp-for="SessionTime" class="form-control" />
+                <span asp-validation-for="SessionTime" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="MovieSpecifiedId" class="control-label text-white">Film</label>
+                <select asp-for="MovieSpecifiedId" class="form-control" asp-items="@Model.MovieOptions"></select>
+
+            </div>
+            <div class="form-group mt-2 me-2">
+                <input type="submit" value="Seans Ekle" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-warning mt-2">Film Seansları</a>
+</div>
+

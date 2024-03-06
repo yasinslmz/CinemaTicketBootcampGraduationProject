@@ -1,0 +1,55 @@
+﻿@model IEnumerable<CinemaProject.Models.CinemaSession>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="card p-4">
+    <h1>Film Seansları</h1>
+
+    <p>
+        <a class="btn btn-primary btn-sm float-end" asp-action="AddSession">Film Seans Ekle</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Sinema
+                </th>
+                <th>
+                    Salon
+                </th>
+               
+                <th>
+                    Seans Tarihi
+                </th>
+                <th>
+                    Movie
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CinemaSalon.Cinema.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CinemaSalon.Name)
+                    </td>
+                   
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SessionTime)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MovieSpecified.Movie.Name)
+                    </td>
+                   
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

@@ -1,0 +1,1485 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CinemaProject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CinemaProject.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Content\\newsite\\assets\\jquery-1.12.1.min.js",
+      "PackagePath": "staticwebassets\\Content\\newsite\\assets\\jquery-1.12.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Content\\newsite\\guzelsanatlar\\gsheading.png",
+      "PackagePath": "staticwebassets\\Content\\newsite\\guzelsanatlar\\gsheading.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Content\\newsite\\images\\general3.jpg",
+      "PackagePath": "staticwebassets\\Content\\newsite\\images\\general3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Content\\newsite\\operabale\\clear.svg",
+      "PackagePath": "staticwebassets\\Content\\newsite\\operabale\\clear.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Content\\newsite\\sample-images\\headergorsel.png",
+      "PackagePath": "staticwebassets\\Content\\newsite\\sample-images\\headergorsel.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Content\\newsite\\tiyatro\\dobheading.png",
+      "PackagePath": "staticwebassets\\Content\\newsite\\tiyatro\\dobheading.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Content\\site\\img\\nav.svg",
+      "PackagePath": "staticwebassets\\Content\\site\\img\\nav.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Content\\site\\img\\search.svg",
+      "PackagePath": "staticwebassets\\Content\\site\\img\\search.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Content\\site\\js\\jquery.rating.pack-1.js",
+      "PackagePath": "staticwebassets\\Content\\site\\js\\jquery.rating.pack-1.js"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Content\\site\\js\\jquery.rating.pack.js",
+      "PackagePath": "staticwebassets\\Content\\site\\js\\jquery.rating.pack.js"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Content\\site\\js\\sweetalert2.all.min.js",
+      "PackagePath": "staticwebassets\\Content\\site\\js\\sweetalert2.all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\3310dan-tum-birimlere-20231213123923020f21ac78424c7183f82d5623a5a3d6.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\3310dan-tum-birimlere-20231213123923020f21ac78424c7183f82d5623a5a3d6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\3391-km-2024151055427e677d5567a64839af62dc21be347361.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\3391-km-2024151055427e677d5567a64839af62dc21be347361.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\afacanlar-kampta-2023125171934ec3ea5b88978469da723128c8da98bc2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\afacanlar-kampta-2023125171934ec3ea5b88978469da723128c8da98bc2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\alev-almis-bir-genc-kizin-portresi-2023125171745b67cff426e0b41fdb9a7040c3739b204.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\alev-almis-bir-genc-kizin-portresi-2023125171745b67cff426e0b41fdb9a7040c3739b204.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\aquaman-ve-kayip-krallik-20241101537154c6b2d233d9e4b8c9dfe3fefba20c7ad.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\aquaman-ve-kayip-krallik-20241101537154c6b2d233d9e4b8c9dfe3fefba20c7ad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\ask-20241112253145e4c39a271dc4ffb94717c6641ef731c.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\ask-20241112253145e4c39a271dc4ffb94717c6641ef731c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\askida-bilet-202411716165195296a61fdb34f05bd90c09d9197cbc8.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\askida-bilet-202411716165195296a61fdb34f05bd90c09d9197cbc8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\aslan-hurkus-gorevimiz-gokbey-2024117164510e6a2fb214ba848d99cafa8e09ce82e50.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\aslan-hurkus-gorevimiz-gokbey-2024117164510e6a2fb214ba848d99cafa8e09ce82e50.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\ataturk-1881-1919-1-film-2023102511525134b9584d390d4cc6b627050db7fe431f.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\ataturk-1881-1919-1-film-2023102511525134b9584d390d4cc6b627050db7fe431f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\ataturk-1881-1919-2-film-20231229133252f8aa3d3847ee4d77bea04fbb700fecc9.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\ataturk-1881-1919-2-film-20231229133252f8aa3d3847ee4d77bea04fbb700fecc9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\aybuke-ogretmen-oldum-ben-20231121172445c2ae05e785474b89b24650f189821019.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\aybuke-ogretmen-oldum-ben-20231121172445c2ae05e785474b89b24650f189821019.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\bar-psikologu-psikogosteri-2023122910404787fb43c446814acea1d15736f21e22b0.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\bar-psikologu-psikogosteri-2023122910404787fb43c446814acea1d15736f21e22b0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\bir-dususun-anatomisi-202310202131539eff941a11e44f7b92445a8767553447.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\bir-dususun-anatomisi-202310202131539eff941a11e44f7b92445a8767553447.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\bir-skandalin-pesinde-202312815187575824d03cc740a4ade724bf32389d90.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\bir-skandalin-pesinde-202312815187575824d03cc740a4ade724bf32389d90.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\cem-karacanin-gozyaslari-2023122014926dbe14a62293643c2b4914de374301070.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\cem-karacanin-gozyaslari-2023122014926dbe14a62293643c2b4914de374301070.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\cocuk-ve-balikcil-202310202124540702cad097ba497db9dd24eb4fcf8f13.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\cocuk-ve-balikcil-202310202124540702cad097ba497db9dd24eb4fcf8f13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\d0c01525f2a54002bb233cd7dc205a61.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\d0c01525f2a54002bb233cd7dc205a61.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\d252018e1eb7424ca8b864dcd6b572b1.webp",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\d252018e1eb7424ca8b864dcd6b572b1.webp"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\demon-azab-ul-kem-20231212279f3fc68d9451e4cf5a859441416cf9c01.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\demon-azab-ul-kem-20231212279f3fc68d9451e4cf5a859441416cf9c01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\guz-sonati-202411211413c4e1bfb433494297b91075e2162ae9ae.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\guz-sonati-202411211413c4e1bfb433494297b91075e2162ae9ae.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\hayat-20231251327417a508d7726814016ad4f77638bb89fba.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\hayat-20231251327417a508d7726814016ad4f77638bb89fba.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\hayvan-kralligi-2023113016565fae83f99f2ad43639ce34a80ce433d1b.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\hayvan-kralligi-2023113016565fae83f99f2ad43639ce34a80ce433d1b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\icimdeki-seytan-202310181317570871c3480c184be78abbe2bb3d2e2d8b.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\icimdeki-seytan-202310181317570871c3480c184be78abbe2bb3d2e2d8b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\kadikoy-sinemasi-kemal-akcay-ile-film-analizi-atolyesi-ucuz-roman-20231130164627f7752189c04646b68e770c23e50f9760.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\kadikoy-sinemasi-kemal-akcay-ile-film-analizi-atolyesi-ucuz-roman-20231130164627f7752189c04646b68e770c23e50f9760.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\kardes-takimi-202312131235585dc4b34f23d9483a97d4e1c4de9a32f5.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\kardes-takimi-202312131235585dc4b34f23d9483a97d4e1c4de9a32f5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\kemal-akcay-ile-bir-film-nasil-okunur-atolyesi-20241181117596347d462997a41d3a8da9bd9162ebf9e.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\kemal-akcay-ile-bir-film-nasil-okunur-atolyesi-20241181117596347d462997a41d3a8da9bd9162ebf9e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\kolpacino-4-4luk-20241911027adeb8268448f4dcc8e9f6d9a49e2770e.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\kolpacino-4-4luk-20241911027adeb8268448f4dcc8e9f6d9a49e2770e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\kucuk-deniz-kizi-2023121229510f0caf5b00aa495788203afb31024425.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\kucuk-deniz-kizi-2023121229510f0caf5b00aa495788203afb31024425.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\kutsal-geyigin-olumu-202411211933db7160d6b68f49c19135f27fc1df33b2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\kutsal-geyigin-olumu-202411211933db7160d6b68f49c19135f27fc1df33b2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\lohusa-2024115127476e7f4ebdb5ff41ef8b9c137f31c58d7f.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\lohusa-2024115127476e7f4ebdb5ff41ef8b9c137f31c58d7f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\murat-gogebakan-kalbim-yarali-2023121143758a23f370475234e508f98f90b882b0c08.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\murat-gogebakan-kalbim-yarali-2023121143758a23f370475234e508f98f90b882b0c08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\mutluyuz-20231226163357671f134c92fe4901a56387c4f0548e8a.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\mutluyuz-20231226163357671f134c92fe4901a56387c4f0548e8a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\napolyon-202311151546367d70677986254368b1578c50a48b1f04.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\napolyon-202311151546367d70677986254368b1578c50a48b1f04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\nefes-yer-eksi-iki-2023126143412a0436ffae6c044ee91f331087689fbd0.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\nefes-yer-eksi-iki-2023126143412a0436ffae6c044ee91f331087689fbd0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\new-yorktan-kacis-202312211350475fb5f27917004d919ed14252d51d3baa.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\new-yorktan-kacis-202312211350475fb5f27917004d919ed14252d51d3baa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\olumlu-dunya-2-2023118145452a31acd6cb34d425190128f015e307584.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\olumlu-dunya-2-2023118145452a31acd6cb34d425190128f015e307584.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\ordeklerin-gocu-20231251116199332e2056f934a16b7c68bbe6593c9e6.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\ordeklerin-gocu-20231251116199332e2056f934a16b7c68bbe6593c9e6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\orman-cetesi-dunya-turu-2023112316550f908948a5d3b49639dbd91e2a0ed7307.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\orman-cetesi-dunya-turu-2023112316550f908948a5d3b49639dbd91e2a0ed7307.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\psinema-psikanaliz-ve-sinema-202411810504745964bf2b15347529cd2270487b9dc15.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\psinema-psikanaliz-ve-sinema-202411810504745964bf2b15347529cd2270487b9dc15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\rafadan-tayfa-4-hayrimator-2023127154429c88d906e22454d7aaac33c30b7207a32.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\rafadan-tayfa-4-hayrimator-2023127154429c88d906e22454d7aaac33c30b7207a32.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\rota-eskisehir-just-the-two-of-us-202392910205004bf106e4de04db2a4b4d0ded5e461cc.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\rota-eskisehir-just-the-two-of-us-202392910205004bf106e4de04db2a4b4d0ded5e461cc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\sinefilozofi-norosinema-film-zihin-ve-beyin-2024118105734cf1c17069bde4557b9aec0bad997c7ca.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\sinefilozofi-norosinema-film-zihin-ve-beyin-2024118105734cf1c17069bde4557b9aec0bad997c7ca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\sinir-krizinin-esigindeki-kadinlar-20241111616531188be8c510c4f189e85c1df0dee8e10.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\sinir-krizinin-esigindeki-kadinlar-20241111616531188be8c510c4f189e85c1df0dee8e10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\tay-2-ebabil-takimi-2023125171831c96a78cab15a42d6aea10b5073960929.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\tay-2-ebabil-takimi-2023125171831c96a78cab15a42d6aea10b5073960929.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\the-beekeeper-2023126143347aa84bfb4f4794db7929d71e70c28448c.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\the-beekeeper-2023126143347aa84bfb4f4794db7929d71e70c28448c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\wonka-20231215112139ea02a1c058264420bac836384bb26b76.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\wonka-20231215112139ea02a1c058264420bac836384bb26b76.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\FilmCover\\yuruyen-sato-20241111718307035bad4ae4d426cb222c32668f307bb.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\FilmCover\\yuruyen-sato-20241111718307035bad4ae4d426cb222c32668f307bb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\3310dan-tum-birimlere-20231211162355e2a0a5001f748bdac8c7a7d8cf36a23.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\3310dan-tum-birimlere-20231211162355e2a0a5001f748bdac8c7a7d8cf36a23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\3391-km-2023121311327bf4d5aa1aed845269197ba037565ec88.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\3391-km-2023121311327bf4d5aa1aed845269197ba037565ec88.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\afacanlar-kampta-20231251618119463697c476744f58868a6888b1f5de1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\afacanlar-kampta-20231251618119463697c476744f58868a6888b1f5de1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\alev-almis-bir-genc-kizin-portresi-2021823125111.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\alev-almis-bir-genc-kizin-portresi-2021823125111.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\aquaman-ve-kayip-krallik-20231123141845705d9eb74da243a795056e2a100e88e3.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\aquaman-ve-kayip-krallik-20231123141845705d9eb74da243a795056e2a100e88e3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\ask-2024111164931e0eec861bfd4406cac9903193b462e11.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\ask-2024111164931e0eec861bfd4406cac9903193b462e11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\askida-bilet-2024117163910995b4745134aafa13ee8466b9b1c59.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\askida-bilet-2024117163910995b4745134aafa13ee8466b9b1c59.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\aslan-hurkus-gorevimiz-gokbey-2022913113634.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\aslan-hurkus-gorevimiz-gokbey-2022913113634.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\ataturk-1881-1919-1-film-202310231623552c3ccfd733904fb0943693a030a183d6.png",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\ataturk-1881-1919-1-film-202310231623552c3ccfd733904fb0943693a030a183d6.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\ataturk-1881-1919-2-film-2023121913854c6b0e5668ef34f4aa573a01225a4beb8.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\ataturk-1881-1919-2-film-2023121913854c6b0e5668ef34f4aa573a01225a4beb8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\aybuke-ogretmen-oldum-ben-2023112016532575f1c0b67a2849319293b11898916f7a.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\aybuke-ogretmen-oldum-ben-2023112016532575f1c0b67a2849319293b11898916f7a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\bar-psikologu-psikogosteri-202312299213449ab70fff91d4b49a832b9441a7fbdf6.png",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\bar-psikologu-psikogosteri-202312299213449ab70fff91d4b49a832b9441a7fbdf6.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\bir-dususun-anatomisi-202310131413346af7a34ba0a84bd0919eaeee147925e7.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\bir-dususun-anatomisi-202310131413346af7a34ba0a84bd0919eaeee147925e7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\bir-skandalin-pesinde-202312290291d31dcc8ebc424669bc18a295a1fd4536.png",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\bir-skandalin-pesinde-202312290291d31dcc8ebc424669bc18a295a1fd4536.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\cem-karacanin-gozyaslari-2024118959502c7cc7a5f69546f4900881e79384835d.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\cem-karacanin-gozyaslari-2024118959502c7cc7a5f69546f4900881e79384835d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\cocuk-ve-balikcil-20231019143862f82f48fc47240598c2ab9003160e6ac.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\cocuk-ve-balikcil-20231019143862f82f48fc47240598c2ab9003160e6ac.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\demon-azab-ul-kem-2023121170419e978b759b0a4ce8a9b668c1a17406e6.png",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\demon-azab-ul-kem-2023121170419e978b759b0a4ce8a9b668c1a17406e6.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\f0ddddc72837423c828f61343fb7941c.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\f0ddddc72837423c828f61343fb7941c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\guz-sonati-2024112153632e4080e3a0a3346fdb896f97f31afd9fc.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\guz-sonati-2024112153632e4080e3a0a3346fdb896f97f31afd9fc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\hayat-2023116112758c538d000908439d919b9723b7a02015.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\hayat-2023116112758c538d000908439d919b9723b7a02015.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\hayvan-kralligi-20241171628185e870429cfec418dab05f1ff816ad665.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\hayvan-kralligi-20241171628185e870429cfec418dab05f1ff816ad665.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\icimdeki-seytan-202312290335526b5783e22c94fb5a79004c5a23b151d.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\icimdeki-seytan-202312290335526b5783e22c94fb5a79004c5a23b151d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\kadikoy-sinemasi-kemal-akcay-ile-film-analizi-atolyesi-ucuz-roman-202311301022267a6680a49d5d4a239bb9cb3ba0f61d9b.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\kadikoy-sinemasi-kemal-akcay-ile-film-analizi-atolyesi-ucuz-roman-202311301022267a6680a49d5d4a239bb9cb3ba0f61d9b.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\kardes-takimi-20231212135742c4d20fbd6e7e4947a594cb8187f8eef2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\kardes-takimi-20231212135742c4d20fbd6e7e4947a594cb8187f8eef2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\kemal-akcay-ile-bir-film-nasil-okunur-atolyesi-20241181095469d05c29d7de4db59ba54451ad145712.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\kemal-akcay-ile-bir-film-nasil-okunur-atolyesi-20241181095469d05c29d7de4db59ba54451ad145712.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\kolpacino-4-4luk-20231211161128e5b642f4e3b84af99b955574569d86a1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\kolpacino-4-4luk-20231211161128e5b642f4e3b84af99b955574569d86a1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\kucuk-deniz-kizi-202312116557f6153c62942b4a9db4e76a597d2388c8.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\kucuk-deniz-kizi-202312116557f6153c62942b4a9db4e76a597d2388c8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\kuru-otlar-ustune-20239221354573f55f644b8c04c348d56902ba6047263.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\kuru-otlar-ustune-20239221354573f55f644b8c04c348d56902ba6047263.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\kutsal-geyigin-olumu-201711815529.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\kutsal-geyigin-olumu-201711815529.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\lohusa-20241131739566e2e405f49f84cb0999fe7740d0d2ffe.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\lohusa-20241131739566e2e405f49f84cb0999fe7740d0d2ffe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\murat-gogebakan-kalbim-yarali-20231026175834c46afad1d7fa40649ad502ca44a8c3e8.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\murat-gogebakan-kalbim-yarali-20231026175834c46afad1d7fa40649ad502ca44a8c3e8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\mutluyuz-2023122793650896f9216ccde420d804bfe69576a3d2c.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\mutluyuz-2023122793650896f9216ccde420d804bfe69576a3d2c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\napolyon-20231124954284c52ec5679ff40e8af3e460aaee727fb.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\napolyon-20231124954284c52ec5679ff40e8af3e460aaee727fb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\narsistle-ask-2024131732457069373dc2cc41a5bfff39e042e730f4.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\narsistle-ask-2024131732457069373dc2cc41a5bfff39e042e730f4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\nefes-yer-eksi-iki-20231213135245e149f3be5e944fcb8130d6ae6fcb7014.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\nefes-yer-eksi-iki-20231213135245e149f3be5e944fcb8130d6ae6fcb7014.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\new-yorktan-kacis-2022627145120.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\new-yorktan-kacis-2022627145120.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\olumlu-dunya-2-2023112415286488d081ef743480cbd1749758cf41cec.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\olumlu-dunya-2-2023112415286488d081ef743480cbd1749758cf41cec.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\ordeklerin-gocu-202312511943eafee91a11a24b87ab672c8042ff6416.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\ordeklerin-gocu-202312511943eafee91a11a24b87ab672c8042ff6416.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\orman-cetesi-dunya-turu-20231123124452e3cb0b970c264ead80255fed923fa496.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\orman-cetesi-dunya-turu-20231123124452e3cb0b970c264ead80255fed923fa496.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\psinema-psikanaliz-ve-sinema-20241181029131399acb28146d9ba2dc30d7a64df91.png",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\psinema-psikanaliz-ve-sinema-20241181029131399acb28146d9ba2dc30d7a64df91.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\rafadan-tayfa-4-hayrimator-20231226152043d39ea462dd3540359d8fba146a44454e.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\rafadan-tayfa-4-hayrimator-20231226152043d39ea462dd3540359d8fba146a44454e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\sinefilozofi-norosinema-film-zihin-ve-beyin-202411810652dae44a7618ac49d19db0760be7b5f81d.png",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\sinefilozofi-norosinema-film-zihin-ve-beyin-202411810652dae44a7618ac49d19db0760be7b5f81d.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\sinir-krizinin-esigindeki-kadinlar-20221229131156.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\sinir-krizinin-esigindeki-kadinlar-20221229131156.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\tay-2-ebabil-takimi-2023125162325d2e811b4fec04420a489c481a4a12407.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\tay-2-ebabil-takimi-2023125162325d2e811b4fec04420a489c481a4a12407.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\the-beekeeper-20231261214246f61c5631b4f441fbd5d19df077fbb38.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\the-beekeeper-20231261214246f61c5631b4f441fbd5d19df077fbb38.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\wonka-20231129114918c30d9c88b5dd40d393aef5705bbc34a2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\wonka-20231129114918c30d9c88b5dd40d393aef5705bbc34a2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\Films\\yuruyen-sato-20211025115356.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Films\\yuruyen-sato-20211025115356.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\MenuImages\\2cd6105ef987450fbaa886edadf80fb7.png",
+      "PackagePath": "staticwebassets\\Uploads\\MenuImages\\2cd6105ef987450fbaa886edadf80fb7.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\0126e575c5054b9caa44111cfe6e7b9d.png",
+      "PackagePath": "staticwebassets\\Uploads\\People\\0126e575c5054b9caa44111cfe6e7b9d.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\01db018bf1584e5cb0e959321f1436ab.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\01db018bf1584e5cb0e959321f1436ab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\0d82f78bb8aa415e9a6a80fda6e7b154.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\0d82f78bb8aa415e9a6a80fda6e7b154.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\175e165f8f9744ceb380cc91322cfa66.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\175e165f8f9744ceb380cc91322cfa66.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\205c84ee7b524de9a909a7d33b204fb1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\205c84ee7b524de9a909a7d33b204fb1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\25c8755b9ba04133ace41ec5870a4419.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\25c8755b9ba04133ace41ec5870a4419.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\28396bb6f6bf48269d558365689df6e7.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\28396bb6f6bf48269d558365689df6e7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\345fdca2660d465ca6cdd4c751712151.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\345fdca2660d465ca6cdd4c751712151.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\43b983c92c3a4ef1899229adf340b17f.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\43b983c92c3a4ef1899229adf340b17f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\457d76d6db6f46fca2eeb09ef4ebae9d.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\457d76d6db6f46fca2eeb09ef4ebae9d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\46220f0febd0436ca2e4d75f45885302.png",
+      "PackagePath": "staticwebassets\\Uploads\\People\\46220f0febd0436ca2e4d75f45885302.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\4bddb11261b34a07a2b4b3cf17d7daa5.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\4bddb11261b34a07a2b4b3cf17d7daa5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\4f4e203fa819406a890d80d79371c629.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\4f4e203fa819406a890d80d79371c629.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\50875ad99b7746958cd966d03bb49450.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\50875ad99b7746958cd966d03bb49450.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\528c77ae17644dde87f6f992d7e275c2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\528c77ae17644dde87f6f992d7e275c2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\57d6e78e83a6406aaf9c6b776a2aff68.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\57d6e78e83a6406aaf9c6b776a2aff68.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\58bf19c128864e60a87c04c99e67ab89.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\58bf19c128864e60a87c04c99e67ab89.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\626a8b55df8c4fdebc9b164106c23e27.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\626a8b55df8c4fdebc9b164106c23e27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\662e5e78cc11462ea1bcaf4f68bb6daf.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\662e5e78cc11462ea1bcaf4f68bb6daf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\66739748-824b-4d38-9719-4e39a26b6234_Colin-Farrell.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\66739748-824b-4d38-9719-4e39a26b6234_Colin-Farrell.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\700397aebaaf49b0a1c7ea94a7b6de57.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\700397aebaaf49b0a1c7ea94a7b6de57.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\7c06ea3fa90940e1bb9ec2a440b492b8.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\7c06ea3fa90940e1bb9ec2a440b492b8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\80040411bb3846bf8175652994878efa.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\80040411bb3846bf8175652994878efa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\8f6ec5e1f800438fbd0f67e1acf19dd0.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\8f6ec5e1f800438fbd0f67e1acf19dd0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\9c930767efc141cb88b01e633d549877.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\9c930767efc141cb88b01e633d549877.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\a01771e6c1d34f59ad61126cfb524f72.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\a01771e6c1d34f59ad61126cfb524f72.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\a19a1e20663e434f8a7777f3081726f7.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\a19a1e20663e434f8a7777f3081726f7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\a2a866717663407b94d77e4d922e9bb1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\a2a866717663407b94d77e4d922e9bb1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\a9f7c41da949481a885f9e9bb5cd2754.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\a9f7c41da949481a885f9e9bb5cd2754.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\ac7bd623dc9f494c9f31fa90541c66e3.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\ac7bd623dc9f494c9f31fa90541c66e3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\adf47b7d6403486f8c5e582b2184a6da.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\adf47b7d6403486f8c5e582b2184a6da.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\adle-exarchopoulos-2019617154530.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\adle-exarchopoulos-2019617154530.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\adle-haenel-2019115163542.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\adle-haenel-2019115163542.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\ae83d60d4e794cfaa9e529b34de205fe.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\ae83d60d4e794cfaa9e529b34de205fe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\alicia-silverstone-2017516153036.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\alicia-silverstone-2017516153036.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\anil-ilter-2017317152711.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\anil-ilter-2017317152711.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\antonio-banderas-201961815945.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\antonio-banderas-201961815945.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\ayhan-tas-2017614143035.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\ayhan-tas-2017614143035.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\b3d0ad9d529d4b60bd476ae303d57bf5.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\b3d0ad9d529d4b60bd476ae303d57bf5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\b5a1f8bba08a469894afec2314331bb4.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\b5a1f8bba08a469894afec2314331bb4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\baa5a3067a844fceaa96b4026df75414.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\baa5a3067a844fceaa96b4026df75414.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\berat-efe-parlar-201832924521.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\berat-efe-parlar-201832924521.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\c2027d6cbbdc46bb9883b05fab6c4fd3.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\c2027d6cbbdc46bb9883b05fab6c4fd3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\c8e232c83e524511bff5e5e85f08d823.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\c8e232c83e524511bff5e5e85f08d823.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\ca8cb988354c4d5c957df05c43e25482.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\ca8cb988354c4d5c957df05c43e25482.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\ce5987d09f9a402bafa13ec7f7f0a356.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\ce5987d09f9a402bafa13ec7f7f0a356.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\cea1f781636047ce9f9fbd610c200c3b.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\cea1f781636047ce9f9fbd610c200c3b.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\cf6069e5147343bc8c2f0541c5f28e3e.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\cf6069e5147343bc8c2f0541c5f28e3e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\cfdb9fcadc864e48a3f1543dd62fb96d.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\cfdb9fcadc864e48a3f1543dd62fb96d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\cillian-murphy-2017718141759.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\cillian-murphy-2017718141759.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\d05f684384954ca789a7bfe1ebe217a0.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\d05f684384954ca789a7bfe1ebe217a0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\d3545e0577c842d6ba8da6adfb939f69.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\d3545e0577c842d6ba8da6adfb939f69.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\d895d89a0ebe4f9399b90b4838400bd3.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\d895d89a0ebe4f9399b90b4838400bd3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\dd3a1b013aa84633928bd009e7c99520.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\dd3a1b013aa84633928bd009e7c99520.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\de93721c773a4826aebadf40c3e4da82.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\de93721c773a4826aebadf40c3e4da82.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\e416806a914e417099e33054cc59a1bc.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\e416806a914e417099e33054cc59a1bc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\e96d622cf4f04da18d98bc51653d629e.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\e96d622cf4f04da18d98bc51653d629e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\elif-gizem-aykul-2021122418533.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\elif-gizem-aykul-2021122418533.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\emily-blunt-201641415924.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\emily-blunt-201641415924.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\eren-hacsaliholu-2016415104523.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\eren-hacsaliholu-2016415104523.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\esra-bilgic-202029161650.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\esra-bilgic-202029161650.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\f02cb5aa5ef4472da27e9073a6779d77.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\f02cb5aa5ef4472da27e9073a6779d77.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\f1644d34ef0a4d3db2a848185d293c9f.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\f1644d34ef0a4d3db2a848185d293c9f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\f4004dd34ecd4b79aac18b9f027d9cb2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\f4004dd34ecd4b79aac18b9f027d9cb2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\f8bdb11517b4431aa7bbf67cb27f8d97.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\f8bdb11517b4431aa7bbf67cb27f8d97.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\fb0790500c3e46d19005656b1d02327e.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\fb0790500c3e46d19005656b1d02327e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\fb3a9934294a4a159e9d73c1f45358fa.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\fb3a9934294a4a159e9d73c1f45358fa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\fikret-kuskan-2018125113631.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\fikret-kuskan-2018125113631.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\firat-albayram-2017227162539.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\firat-albayram-2017227162539.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\hakan-mericliler-201833032951.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\hakan-mericliler-201833032951.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\halle-bailey-2023522102946.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\halle-bailey-2023522102946.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\ismail-hacioglu-20171013165526.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\ismail-hacioglu-20171013165526.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\jason-momoa-2016310124418.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\jason-momoa-2016310124418.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\jason-statham-2017322145111.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\jason-statham-2017322145111.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\jeremy-irons-201639175029.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\jeremy-irons-201639175029.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\joaquin-phoenix-2018523151736.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\joaquin-phoenix-2018523151736.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\jolianne-moore-201666101212.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\jolianne-moore-201666101212.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\jonah-hauer-king-2023522103039.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\jonah-hauer-king-2023522103039.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\kayra-ozdemir-20211224185243.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\kayra-ozdemir-20211224185243.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\kurt-russell-2017421174814.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\kurt-russell-2017421174814.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\luna-bajrami-2019115163637.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\luna-bajrami-2019115163637.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\matt-damon-2016122992236.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\matt-damon-2016122992236.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\melissa-mccarthy-2016719133749.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\melissa-mccarthy-2016719133749.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\melvil-poupaud-20196201006.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\melvil-poupaud-20196201006.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\merve-dizdar-2018116125324.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\merve-dizdar-2018116125324.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\natalie-portman-201711016436.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\natalie-portman-201711016436.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\nicole-mary-kidman-2016421101326.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\nicole-mary-kidman-2016421101326.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\nomie-merlant-201911516350.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\nomie-merlant-201911516350.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\patrick-wilson-201811112952.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\patrick-wilson-201811112952.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\romain-duris-2018425101046.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\romain-duris-2018425101046.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\sandra-huller-2017129101639.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\sandra-huller-2017129101639.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\talha-tosun-20219161722.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\talha-tosun-20219161722.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\vanessa-kirby-201961817626.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\vanessa-kirby-201961817626.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\yahya-abdul-mateen-ii-2019624114642.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\yahya-abdul-mateen-ii-2019624114642.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\People\\yasemin-yalcin-201715152210.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\People\\yasemin-yalcin-201715152210.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\SmartMarker\\10-20191122172046.png",
+      "PackagePath": "staticwebassets\\Uploads\\SmartMarker\\10-20191122172046.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\SmartMarker\\10a-20191122172030.png",
+      "PackagePath": "staticwebassets\\Uploads\\SmartMarker\\10a-20191122172030.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\SmartMarker\\13-2016811111627.png",
+      "PackagePath": "staticwebassets\\Uploads\\SmartMarker\\13-2016811111627.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\SmartMarker\\13a-201681111175.png",
+      "PackagePath": "staticwebassets\\Uploads\\SmartMarker\\13a-201681111175.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\SmartMarker\\15-2016812163711.png",
+      "PackagePath": "staticwebassets\\Uploads\\SmartMarker\\15-2016812163711.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\SmartMarker\\16-2020114181159.png",
+      "PackagePath": "staticwebassets\\Uploads\\SmartMarker\\16-2020114181159.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\SmartMarker\\6-20191126102613.png",
+      "PackagePath": "staticwebassets\\Uploads\\SmartMarker\\6-20191126102613.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\SmartMarker\\6a-20191122172018.png",
+      "PackagePath": "staticwebassets\\Uploads\\SmartMarker\\6a-20191122172018.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\SmartMarker\\7-2016811111715.png",
+      "PackagePath": "staticwebassets\\Uploads\\SmartMarker\\7-2016811111715.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\SmartMarker\\cinsellik-unsuru-20162592239.png",
+      "PackagePath": "staticwebassets\\Uploads\\SmartMarker\\cinsellik-unsuru-20162592239.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\SmartMarker\\genel-izleyici-201681111188.png",
+      "PackagePath": "staticwebassets\\Uploads\\SmartMarker\\genel-izleyici-201681111188.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\SmartMarker\\iddet-ve-korku-2016811111844.png",
+      "PackagePath": "staticwebassets\\Uploads\\SmartMarker\\iddet-ve-korku-2016811111844.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\Uploads\\SmartMarker\\olumsuz-rnek-20162592249.png",
+      "PackagePath": "staticwebassets\\Uploads\\SmartMarker\\olumsuz-rnek-20162592249.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\css2",
+      "PackagePath": "staticwebassets"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\css\\cookieconsent.css",
+      "PackagePath": "staticwebassets\\dist\\assets\\css\\cookieconsent.css"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\dist\\assets\\css\\style.min.css"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\flags\\al.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\flags\\al.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\flags\\gb.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\flags\\gb.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\flags\\hr.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\flags\\hr.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\flags\\tr.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\flags\\tr.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\appstore_badge_tr.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\appstore_badge_tr.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\arama_yn.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\arama_yn.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\biletikon.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\biletikon.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\close.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\close.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\dots.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\dots.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\etkinlikbg1366.jpg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\etkinlikbg1366.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\etkinlikbg1600.jpg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\etkinlikbg1600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\etkinlikbg1920.jpg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\etkinlikbg1920.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\etkinlikbg2k.jpg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\etkinlikbg2k.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\facebook.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\favicons\\favicon-152.png",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\favicons\\favicon-152.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\favicons\\favicon.ico",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\favicons\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\filtreleYN.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\filtreleYN.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\google_play_badge_tr.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\google_play_badge_tr.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\icns\\akmicon.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\icns\\akmicon.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\icns\\aramaikon.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\icns\\aramaikon.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\icns\\bale.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\icns\\bale.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\icns\\csoikon.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\icns\\csoikon.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\icns\\dticon.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\icns\\dticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\icns\\egitim.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\icns\\egitim.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\icns\\festival.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\icns\\festival.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\icns\\gosteri.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\icns\\gosteri.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\icns\\ktbicon.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\icns\\ktbicon.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\icns\\muzik.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\icns\\muzik.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\icns\\opera.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\icns\\opera.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\icns\\seminer.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\icns\\seminer.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\icns\\sinema.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\icns\\sinema.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\icns\\spor.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\icns\\spor.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\icns\\standup.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\icns\\standup.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\icns\\star.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\icns\\star.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\icns\\tiyatro.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\icns\\tiyatro.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\icns\\tumu.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\icns\\tumu.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\instagram.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\instagram.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\konumikon.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\konumikon.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\linkedin.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\linkedin.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\location.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\location.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\login.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\login.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\logo_dark.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\logo_dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\logodark.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\logodark.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\logosmall.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\logosmall.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\master.png",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\master.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\perdeTop@3x.png",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\perdeTop@3x.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\seanceInformation.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\seanceInformation.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\sehirasagiicon.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\sehirasagiicon.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\star.png",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\star.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\star2-1.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\star2-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\star2.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\star2.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\twitter.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\twitter.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\visa.png",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\visa.png"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\whatsapp.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\whatsapp.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\yn_down.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\yn_down.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\img\\youtube.svg",
+      "PackagePath": "staticwebassets\\dist\\assets\\img\\youtube.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\js\\cookieconsent-init.js",
+      "PackagePath": "staticwebassets\\dist\\assets\\js\\cookieconsent-init.js"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\js\\cookieconsent.js",
+      "PackagePath": "staticwebassets\\dist\\assets\\js\\cookieconsent.js"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\js\\lodash.min.js",
+      "PackagePath": "staticwebassets\\dist\\assets\\js\\lodash.min.js"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\dist\\assets\\js\\scripts.min.js",
+      "PackagePath": "staticwebassets\\dist\\assets\\js\\scripts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\font-awesome\\3.2.1\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\font-awesome\\3.2.1\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\font-awesome\\3.2.1\\font\\fontawesome-webfont-1.eot",
+      "PackagePath": "staticwebassets\\font-awesome\\3.2.1\\font\\fontawesome-webfont-1.eot"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\font-awesome\\3.2.1\\font\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\font-awesome\\3.2.1\\font\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\font-awesome\\3.2.1\\font\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\font-awesome\\3.2.1\\font\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\font-awesome\\3.2.1\\font\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\3.2.1\\font\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\font-awesome\\3.2.1\\font\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\font-awesome\\3.2.1\\font\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\gtag\\js",
+      "PackagePath": "staticwebassets\\gtag"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\images\\category\\4c82df82-76f1-45fe-8364-bc9f72c9e2e9.jpg",
+      "PackagePath": "staticwebassets\\images\\category\\4c82df82-76f1-45fe-8364-bc9f72c9e2e9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\images\\category\\a12a2588-71fe-494d-a173-daa53e33be37.jpg",
+      "PackagePath": "staticwebassets\\images\\category\\a12a2588-71fe-494d-a173-daa53e33be37.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\images\\category\\aa7ac07f-d19a-47ec-bfe6-3154d796fce0.jpg",
+      "PackagePath": "staticwebassets\\images\\category\\aa7ac07f-d19a-47ec-bfe6-3154d796fce0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\images\\category\\bcfebf73-e096-4e73-9d8b-8da6272b5777.jpg",
+      "PackagePath": "staticwebassets\\images\\category\\bcfebf73-e096-4e73-9d8b-8da6272b5777.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\images\\category\\empty.jpg",
+      "PackagePath": "staticwebassets\\images\\category\\empty.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\images\\category\\heuhmund.jpg",
+      "PackagePath": "staticwebassets\\images\\category\\heuhmund.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\images\\movie\\240266cc-5d29-42bb-b761-541a1f9a8f4b.jpg",
+      "PackagePath": "staticwebassets\\images\\movie\\240266cc-5d29-42bb-b761-541a1f9a8f4b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\images\\movie\\2ee5c2b2-8060-4a86-9dca-ea94899c78a3.jpg",
+      "PackagePath": "staticwebassets\\images\\movie\\2ee5c2b2-8060-4a86-9dca-ea94899c78a3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\images\\movie\\2fcd49f2-e09f-422d-8b49-e9369dcd5bd7.jpg",
+      "PackagePath": "staticwebassets\\images\\movie\\2fcd49f2-e09f-422d-8b49-e9369dcd5bd7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\images\\movie\\59603aff-1ea7-4983-92f9-45c4e8a31570.jpeg",
+      "PackagePath": "staticwebassets\\images\\movie\\59603aff-1ea7-4983-92f9-45c4e8a31570.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\images\\movie\\9f8581d7-1809-49f7-ae29-92e5959788ce.jpg",
+      "PackagePath": "staticwebassets\\images\\movie\\9f8581d7-1809-49f7-ae29-92e5959788ce.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\images\\movie\\a0fda4fb-d425-4296-9cfd-7294d8986fcb.jpg",
+      "PackagePath": "staticwebassets\\images\\movie\\a0fda4fb-d425-4296-9cfd-7294d8986fcb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\images\\movie\\c318d466-b668-41da-b592-695f28c60c0f.jpg",
+      "PackagePath": "staticwebassets\\images\\movie\\c318d466-b668-41da-b592-695f28c60c0f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\images\\movie\\eb64d91f-f009-4e1b-b534-e2007e439b51.jpg",
+      "PackagePath": "staticwebassets\\images\\movie\\eb64d91f-f009-4e1b-b534-e2007e439b51.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\images\\product\\empty.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\empty.jpg"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\optimize.js",
+      "PackagePath": "staticwebassets\\optimize.js"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZg.ttf",
+      "PackagePath": "staticwebassets\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZg.ttf"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf",
+      "PackagePath": "staticwebassets\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZg.ttf",
+      "PackagePath": "staticwebassets\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZg.ttf"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZg.ttf",
+      "PackagePath": "staticwebassets\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZg.ttf"
+    },
+    {
+      "Id": "C:\\Users\\deadn\\Desktop\\CinemaProject\\CinemaProject\\CinemaProject\\wwwroot\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfMZg.ttf",
+      "PackagePath": "staticwebassets\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfMZg.ttf"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.CinemaProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.CinemaProject.props",
+      "PackagePath": "build\\CinemaProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.CinemaProject.props",
+      "PackagePath": "buildMultiTargeting\\CinemaProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.CinemaProject.props",
+      "PackagePath": "buildTransitive\\CinemaProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
