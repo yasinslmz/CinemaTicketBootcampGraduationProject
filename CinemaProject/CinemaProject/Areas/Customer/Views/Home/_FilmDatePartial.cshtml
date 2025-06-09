@@ -1,0 +1,12 @@
+﻿@model List<String>
+
+@foreach (var type in Model)
+{
+    <li value="@type" data-value="@type">
+        <label class="checkboxYN   ">
+            @type
+            <input type="checkbox" class="checkboxDate filterCheck" filtercheckvalue=""><span class="checkmark"></span>
+        </label>
+    </li>
+
+}
